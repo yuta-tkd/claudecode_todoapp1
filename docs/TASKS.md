@@ -10,6 +10,7 @@
 | 4 | カテゴリとフィルタ機能 | :white_check_mark: 完了 |
 | 5 | ドラッグ＆ドロップ機能 | :white_check_mark: 完了 |
 | 6 | 仕上げ（トースト、レスポンシブ、ポリッシュ） | :white_check_mark: 完了 |
+| 7 | GitHub Pages デプロイ | :white_check_mark: 完了 |
 
 ---
 
@@ -64,3 +65,15 @@
 - [x] 期限切れ表示の視覚強化（赤色 + 警告アイコン）
 - [x] 完了TODOスタイリング（取り消し線 + 透明度低下）
 - [x] `npm run build` で本番ビルド確認 -> 成功
+
+## Phase 7: GitHub Pages デプロイ :white_check_mark:
+
+- [x] GitHub リポジトリ作成 & リモート設定（`gh repo create claudecode_todoapp1`）
+- [x] `next.config.ts` を静的エクスポート用に更新（output, basePath, images）
+- [x] `public/.nojekyll` を作成（Jekyll 処理スキップ）
+- [x] GitHub Actions ワークフロー作成（`.github/workflows/deploy.yml`）
+- [x] 初回コミット & プッシュ（37ファイル、8989行追加）
+- [x] GitHub Pages 設定を有効化（`gh api`）
+- [x] デプロイ成功確認（ビルド 28秒 + デプロイ 10秒）
+- [x] 公開URL確認: https://yuta-tkd.github.io/claudecode_todoapp1/
+- [x] デプロイドキュメント作成（`docs/DEPLOY.md`）

@@ -5,10 +5,13 @@
 Next.js (App Router) + TypeScript + Tailwind CSS で構築する TODO アプリケーション。
 データは localStorage に保存（バックエンド不要、認証なし）。
 
+**公開URL**: https://yuta-tkd.github.io/claudecode_todoapp1/
+
 ## ドキュメント
 
 - 仕様書: `docs/SPEC.md`
 - タスクリスト: `docs/TASKS.md`
+- デプロイガイド: `docs/DEPLOY.md`
 
 ## 技術スタック
 
